@@ -1,0 +1,46 @@
+.listado li{
+	list-style: none;
+	border: solid #fafaff 1px;
+    border-radius: 10PX;
+    background-color: #fafaff;
+    padding: 1%;
+}
+
+.niveles{
+	border: solid gray 1px; 
+	border-radius: 10px; 
+	box-shadow: 2px 2px gray;
+}
+
+.btn-orange{
+	background-color: #f05126;
+	color: white;
+}
+
+.ingenieria{
+	border: solid gray 1px;
+	border-radius: 10px;
+	box-shadow: 2px 2px gray;
+	padding: 2%;
+	margin: 2%;
+}
+
+.url{
+	border: solid gray 1px;
+	border-radius: 20px;
+	background-color: #E7EFDC;
+	color: #0A6C7E;
+	margin: 10px;
+	padding: 5px;	
+}
+
+.img-universidad{
+	position: absolute;
+    left: 76%;
+    width: 27%;
+    background-color: white;
+    top: 7%;
+    border-radius: 10px;
+    padding: 4%;
+    border: solid #00000029 1px;
+}

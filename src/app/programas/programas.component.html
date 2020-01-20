@@ -1,0 +1,362 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 60px;">
+    <div class="d-flex flex-grow-1">
+        <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
+        <a class="navbar-brand d-none d-lg-inline-block" href="#">
+            <img src="./assets/img/LOGO-LNEDU.png" alt="logo" width="100%">
+        </a>
+        <div class="w-100 text-right">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+            <li class="nav-item">  
+              <a [routerLink]="['/inicio']" class="nav-link" style="color: #0A6C7E; font-size: 13px;">INICIO</a>
+            </li>
+            <li class="nav-item">  
+              <a [routerLink]="['/programas']" class="nav-link" style="color: #0A6C7E; font-size: 13px;">PROGRAMAS</a>
+            </li>
+            <li class="nav-item">  
+              <a href="#" class="nav-link" style="color: #0A6C7E; font-size: 13px;">UNIVERSIDAD</a>
+            </li>
+            <li class="nav-item">  
+              <a href="#" class="nav-link" style="color: #0A6C7E; font-size: 13px;">EMPLEO</a>
+            </li>
+            <li class="nav-item">  
+              <a href="#" class="nav-link" style="color: #0A6C7E; font-size: 13px;">LETRAS Y NUMEROS</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="btn login btn-orange" style=" font-size: 13px;">Sing In</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-fluid">
+	<div class="row py-5">
+		<div class="col-3">
+			<h6>Filtrar tu bùsqueda</h6>
+		</div>
+		<div class="col-3">
+			<select class="form-control">
+				<option selected="true" disabled="true">Ciudad</option>
+			</select>
+		</div>
+		<div class="col-3">
+			<select class="form-control">
+				<option selected="true" disabled="true">Universidad</option>
+			</select>
+		</div>
+		<div class="col-3">
+			<select class="form-control">
+				<option selected="true" disabled="true">Nivel de Informaciòn</option>
+			</select>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-3">
+			<ul class="listado" style="">
+				<li><h6>Area de <br/> conocimiento</h6></li>
+				<li><hr/></li>
+				<li><input type="checkbox" name="medicina"> Medicina</li>
+				<li><input type="checkbox" name="medicina"> Ingenieria</li>
+				<li><input type="checkbox" name="medicina"> Diseño</li>
+				<li><input type="checkbox" name="medicina"> Veterinaria</li>
+			    <li><input type="checkbox" name="medicina"> Zootecnia</li>
+				<li><input type="checkbox" name="medicina"> Sicologia</li>
+				<li><input type="checkbox" name="medicina"> Enfermeria</li>
+				<li><input type="checkbox" name="medicina"> Arquitectura</li>
+				<li><input type="checkbox" name="medicina"> Administracion</li>
+				<li><input type="checkbox" name="medicina"> Diseño</li>
+			</ul>
+				<ul class="listado" style="">
+			<li><h6>Duracion</h6></li>
+			<li><hr></li>	
+			<li><input type="checkbox" name="1 año">1 año</li>
+			<li><input type="checkbox" name="2 año">2 año</li>
+            <li><input type="checkbox" name="3 año">3 año</li>
+            <li><input type="checkbox" name="4 año">4 año</li>
+		    <li><input type="checkbox" name="5 año">5 año</li>
+		</ul>
+			<ul class="listado" style="">
+			<li><h6>Jornada</h6></li>
+			<li><hr></li>	
+			<li><input type="checkbox" name="Diurna">Diurna</li>
+			<li><input type="checkbox" name="Noturna">Nortuna</li>
+            <li><input type="checkbox" name="Diurna">Diurna</li>
+            <li><input type="checkbox" name="Diurna">Diurna</li>
+		</ul>
+			<ul class="listado" style="">
+			<li><h6>Modalidad</h6></li>
+			<li><hr></li>	
+			<li><input type="checkbox" name="Presencial">Presencial</li>
+			<li><input type="checkbox" name="Virtual">Virtual</li>
+            <li><input type="checkbox" name="Semi presencial">Semi presencial</li>
+		</ul>
+		</div>
+		<div class="col-9">
+			<div class="row ingenieria">
+				<div class="col-3">
+					<img src="./assets/img/foto universidad paga.png" width="100%">	
+					<img src="./assets/img/logo-ub2.png" class="img-universidad">
+				</div>
+				<div class="col-9">
+					<div class="row">
+						<div class="col-8">
+							<h6>Ingenieria civil</h6>
+							<p style="line-height: 10px;">Pontifica Universaria Javerania</p>
+                  			<p style="line-height: 0px;">
+                  				<i class="fas fa-map-marker-alt" style="color: #F47921; line-height: 0px;"></i> 
+                  				Bogota D.C
+                  			</p>
+						</div>
+						<div class="col-4">
+							<button class="btn btn-orange btn-block" style="height: 80%;">Mas información</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<hr/>
+						</div>
+						<div class="col-12">
+							<p>La ingeneria civil genera proyectos para mejor la calidad de vida teniendo en cuenta la sostebilidad, el cuidaddo del medio ambiente y su responsabilidad</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<div class="text-center niveles">
+								<i class="fas fa-graduation-cap" style="color: #0A6C7E;"></i>
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="text-center niveles" >
+								<i class="fas fa-address-book" style="color: #0A6C7E;"></i>
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="text-center niveles">
+								<img src="./assets/img/brightness_4-24px.svg" width="10%">
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="text-center niveles">
+								<img src="./assets/img/account_balance_wallet-24px.svg" width="10%">
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+					</div>
+					<div class="row" style="width: 90%; ">
+						<div class="col-12 ">
+							<p class="url">Area de conocimientos: <strong>Ingeneria, tecnologia arquictetura y afines</strong></p>	
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row ingenieria">
+				<div class="col-3">
+					<img src="./assets/img/foto universidad paga.png" width="100%">	
+					<img src="./assets/img/logo-ub2.png" class="img-universidad">
+				</div>
+				<div class="col-9">
+					<div class="row">
+						<div class="col-8">
+							<h6>Ingenieria civil</h6>
+							<p style="line-height: 10px;">Pontifica Universaria Javerania</p>
+                  			<p style="line-height: 0px;">
+                  				<i class="fas fa-map-marker-alt" style="color: #F47921; line-height: 0px;"></i> 
+                  				Bogota D.C
+                  			</p>
+						</div>
+						<div class="col-4">
+							<button class="btn btn-orange btn-block" style="height: 80%;">Mas información</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<hr/>
+						</div>
+						<div class="col-12">
+							<p>La ingeneria civil genera proyectos para mejor la calidad de vida teniendo en cuenta la sostebilidad, el cuidaddo del medio ambiente y su responsabilidad</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<div class="text-center niveles">
+								<i class="fas fa-graduation-cap" style="color: #0A6C7E;"></i>
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="text-center niveles" >
+								<i class="fas fa-address-book" style="color: #0A6C7E;"></i>
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="text-center niveles">
+								<img src="./assets/img/brightness_4-24px.svg" width="10%">
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="text-center niveles">
+								<img src="./assets/img/account_balance_wallet-24px.svg" width="10%">
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+					</div>
+					<div class="row" style="width: 90%; ">
+						<div class="col-12 ">
+							<p class="url">Area de conocimientos: <strong>Ingeneria, tecnologia arquictetura y afines</strong></p>	
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row ingenieria">
+				<div class="col-3">
+					<img src="./assets/img/foto universidad paga.png" width="100%">	
+				</div>
+				<div class="col-9">
+					<div class="row">
+						<div class="col-8">
+							<h6>Ingenieria civil</h6>
+							<p style="line-height: 10px;">Pontifica Universaria Javerania</p>
+                  			<p style="line-height: 0px;">
+                  				<i class="fas fa-map-marker-alt" style="color: #F47921; line-height: 0px;"></i> 
+                  				Bogota D.C
+                  			</p>
+						</div>
+						<div class="col-4">
+							COSTO DEL SEMESTRE $12.000.000
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<hr/>
+						</div>
+						<div class="col-12">
+							<p>La ingeneria civil genera proyectos para mejor la calidad de vida teniendo en cuenta la sostebilidad, el cuidaddo del medio ambiente y su responsabilidad</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<div class="text-center niveles">
+								<i class="fas fa-graduation-cap" style="color: #0A6C7E;"></i>
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="text-center niveles" >
+								<i class="fas fa-address-book" style="color: #0A6C7E;"></i>
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="text-center niveles">
+								<img src="./assets/img/brightness_4-24px.svg" width="10%">
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="text-center niveles">
+								<img src="./assets/img/account_balance_wallet-24px.svg" width="10%">
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+					</div>
+					<div class="row" style="width: 90%; ">
+						<div class="col-12 ">
+							<p class="url">Area de conocimientos: <strong>Ingeneria, tecnologia arquictetura y afines</strong></p>	
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row ingenieria">
+				<div class="col-3">
+					<img src="./assets/img/foto universidad paga.png" width="100%">	
+				</div>
+				<div class="col-9">
+					<div class="row">
+						<div class="col-8">
+							<h6>Ingenieria civil</h6>
+							<p style="line-height: 10px;">Pontifica Universaria Javerania</p>
+                  			<p style="line-height: 0px;">
+                  				<i class="fas fa-map-marker-alt" style="color: #F47921; line-height: 0px;"></i> 
+                  				Bogota D.C
+                  			</p>
+						</div>
+						<div class="col-4">
+							COSTO DEL SEMESTRE $12.000.000
+						</div>
+						
+					</div>
+					<div class="row">
+						<div class="col-12">
+							<hr/>
+						</div>
+						<div class="col-12">
+							<p>La ingeneria civil genera proyectos para mejor la calidad de vida teniendo en cuenta la sostebilidad, el cuidaddo del medio ambiente y su responsabilidad</p>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-3">
+							<div class="text-center niveles">
+								<i class="fas fa-graduation-cap" style="color: #0A6C7E;"></i>
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="text-center niveles" >
+								<i class="fas fa-address-book" style="color: #0A6C7E;"></i>
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="text-center niveles">
+								<img src="./assets/img/brightness_4-24px.svg" width="10%">
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+						<div class="col-3">
+							<div class="text-center niveles">
+								<img src="./assets/img/account_balance_wallet-24px.svg" width="10%">
+								<p style="line-height: 0px;">Nivel de estudios</p>
+								<p style="line-height: 0px;"><strong>Profesional</strong></p>	
+							</div>
+						</div>
+					</div>
+					<div class="row" style="width: 90%; ">
+						<div class="col-12">
+							<p class="url">Area de conocimientos: <strong>Ingeneria, tecnologia arquictetura y afines</strong></p>	
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>

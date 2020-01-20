@@ -6,17 +6,20 @@ import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { InicioComponent } from './inicio/inicio.component';
+import { ProgramasComponent } from './programas/programas.component';
 
 
 const routes: Routes= [
   	{path: '', redirectTo: '/inicio', pathMatch: 'full'},
-	  {path: 'inicio', component: InicioComponent}
+	  {path: 'inicio', component: InicioComponent},
+    {path: 'programas', component: ProgramasComponent}
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    InicioComponent
+    InicioComponent,
+    ProgramasComponent
   ],
   imports: [
     BrowserModule,
