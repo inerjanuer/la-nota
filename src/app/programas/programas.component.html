@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 60px;">
-    <div class="d-flex flex-grow-1">
+    <div class="d-flex flex-grow-1 col-lg-3">
         <span class="w-100 d-lg-none d-block"><!-- hidden spacer to center brand on mobile --></span>
         <a class="navbar-brand d-none d-lg-inline-block" href="#">
             <img src="./assets/img/LOGO-LNEDU.png" alt="logo" width="100%">
@@ -10,12 +10,24 @@
             </button>
         </div>
     </div>
-    <input _ngcontent-tyb-c2="" class="form-control" name="carrera" placeholder="Carrera o Programa" style="height: 30px; margin: 0px;" type="search">
-<input _ngcontent-tyb-c2="" class="form-control" name="universidad" placeholder="Universidad" style="height: 30px; margin: 10px;" type="search">
-<i _ngcontent-cei-c1="" class="fa fa-search"></i>
+		
+	<div class="col-lg-6">
+		<form class="form-row">
+			<div class="col-5" style="margin: 0px; padding: 0px;">
+				<input type="search" name="carrera" class="form-control" placeholder="Carrera o Programa" style="height: 40px; margin: 0px;">	
+			</div>
+			<div class="col-5" style="margin: 0px; padding: 0px;">
+				<input type="search" name="universidad" class="form-control" placeholder="Universidad" style="height: 40px; margin: 0px;">	
+			</div>
+			<div class="col-2" style="margin: 0px; padding: 0px;">
+				<button class="btn" style="background-color:  #F05024; height: 40px; width: 60px; margin: 0px;"><i class="fa fa-search"></i></button>		
+			</div>
+		</form>	
+	</div>
+
     <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
         <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item">
+            <li class="nav-item">  
               <a [routerLink]="['/inicio']" class="nav-link" style="color: #0A6C7E; font-size: 13px;">INICIO</a>
             </li>
             <li class="nav-item">  
@@ -27,6 +39,7 @@
         </ul>
     </div>
 </nav>
+
 <div class="container-fluid">
 	<div class="row py-5">
 		<div class="col-3">
