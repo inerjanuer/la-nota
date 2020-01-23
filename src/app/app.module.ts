@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { InicioComponent } from './inicio/inicio.component';
 import { ProgramasComponent } from './programas/programas.component';
 import { IngenieriaComponent } from './ingenieria/ingenieria.component';
+import { AdministradorComponent } from './administrador/administrador.component';
 
 
 
@@ -15,7 +16,8 @@ const routes: Routes= [
   	{path: '', redirectTo: '/inicio', pathMatch: 'full'},
 	  {path: 'inicio', component: InicioComponent},
     {path: 'programas', component: ProgramasComponent},
-    {path: 'ingenieria', component: IngenieriaComponent}
+    {path: 'ingenieria', component: IngenieriaComponent},
+    {path: 'administrador', component: AdministradorComponent},
 ];
 
 @NgModule({
@@ -23,7 +25,8 @@ const routes: Routes= [
     AppComponent,
     InicioComponent,
     ProgramasComponent,
-    IngenieriaComponent
+    IngenieriaComponent,
+    AdministradorComponent
   ],
   imports: [
     BrowserModule,
