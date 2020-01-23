@@ -10,6 +10,7 @@ import { ProgramasComponent } from './programas/programas.component';
 import { IngenieriaComponent } from './ingenieria/ingenieria.component';
 
 
+
 const routes: Routes= [
   	{path: '', redirectTo: '/inicio', pathMatch: 'full'},
 	  {path: 'inicio', component: InicioComponent},
