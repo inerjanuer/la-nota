@@ -10,6 +10,7 @@ import { ProgramasComponent } from './programas/programas.component';
 import { IngenieriaComponent } from './ingenieria/ingenieria.component';
 import { AdministradorComponent } from './administrador/administrador.component';
 import { EconomicaComponent } from './economica/economica.component';
+import { EducativaComponent } from './educativa/educativa.component';
 
 
 
@@ -20,6 +21,7 @@ const routes: Routes= [
     {path: 'ingenieria', component: IngenieriaComponent},
     {path: 'administrador', component: AdministradorComponent},
     {path: 'economica', component: EconomicaComponent},
+    {path: 'educativa', component: EducativaComponent}
 ];
 
 @NgModule({
@@ -29,7 +31,8 @@ const routes: Routes= [
     ProgramasComponent,
     IngenieriaComponent,
     AdministradorComponent,
-    EconomicaComponent
+    EconomicaComponent,
+    EducativaComponent
   ],
   imports: [
     BrowserModule,
