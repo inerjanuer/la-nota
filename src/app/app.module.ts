@@ -7,6 +7,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { InicioComponent } from './inicio/inicio.component';
 import { ProgramasComponent } from './programas/programas.component';
+import { UniversidadComponent } from './universidad/universidad.component';
 import { IngenieriaComponent } from './ingenieria/ingenieria.component';
 import { AdministradorComponent } from './administrador/administrador.component';
 import { EconomicaComponent } from './economica/economica.component';
@@ -21,7 +22,9 @@ const routes: Routes= [
     {path: 'ingenieria', component: IngenieriaComponent},
     {path: 'administrador', component: AdministradorComponent},
     {path: 'economica', component: EconomicaComponent},
-    {path: 'educativa', component: EducativaComponent}
+    {path: 'educativa', component: EducativaComponent},
+    {path: 'universidad', component: UniversidadComponent}
+
 ];
 
 @NgModule({
@@ -32,7 +35,8 @@ const routes: Routes= [
     IngenieriaComponent,
     AdministradorComponent,
     EconomicaComponent,
-    EducativaComponent
+    EducativaComponent,
+    UniversidadComponent
   ],
   imports: [
     BrowserModule,
