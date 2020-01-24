@@ -9,6 +9,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { ProgramasComponent } from './programas/programas.component';
 import { IngenieriaComponent } from './ingenieria/ingenieria.component';
 import { AdministradorComponent } from './administrador/administrador.component';
+import { EconomicaComponent } from './economica/economica.component';
 
 
 
@@ -18,6 +19,7 @@ const routes: Routes= [
     {path: 'programas', component: ProgramasComponent},
     {path: 'ingenieria', component: IngenieriaComponent},
     {path: 'administrador', component: AdministradorComponent},
+    {path: 'economica', component: EconomicaComponent},
 ];
 
 @NgModule({
@@ -26,7 +28,8 @@ const routes: Routes= [
     InicioComponent,
     ProgramasComponent,
     IngenieriaComponent,
-    AdministradorComponent
+    AdministradorComponent,
+    EconomicaComponent
   ],
   imports: [
     BrowserModule,
