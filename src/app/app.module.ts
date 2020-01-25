@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppComponent } from './app.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
@@ -12,6 +11,7 @@ import { IngenieriaComponent } from './ingenieria/ingenieria.component';
 import { AdministradorComponent } from './administrador/administrador.component';
 import { EconomicaComponent } from './economica/economica.component';
 import { EducativaComponent } from './educativa/educativa.component';
+import { ResumenComponent } from './resumen/resumen.component';
 
 
 
@@ -23,7 +23,8 @@ const routes: Routes= [
     {path: 'administrador', component: AdministradorComponent},
     {path: 'economica', component: EconomicaComponent},
     {path: 'educativa', component: EducativaComponent},
-    {path: 'universidad', component: UniversidadComponent}
+    {path: 'universidad', component: UniversidadComponent},
+    {path: 'resumen', component: ResumenComponent},
 
 ];
 
@@ -36,7 +37,8 @@ const routes: Routes= [
     AdministradorComponent,
     EconomicaComponent,
     EducativaComponent,
-    UniversidadComponent
+    UniversidadComponent,
+    ResumenComponent
   ],
   imports: [
     BrowserModule,
