@@ -12,6 +12,7 @@ import { AdministradorComponent } from './administrador/administrador.component'
 import { EconomicaComponent } from './economica/economica.component';
 import { EducativaComponent } from './educativa/educativa.component';
 import { ResumenComponent } from './resumen/resumen.component';
+import { TablaComponent } from './tabla/tabla.component';
 
 
 
@@ -25,6 +26,7 @@ const routes: Routes= [
     {path: 'educativa', component: EducativaComponent},
     {path: 'universidad', component: UniversidadComponent},
     {path: 'resumen', component: ResumenComponent},
+    {path: 'tabla', component: TablaComponent}
 
 ];
 
@@ -38,7 +40,8 @@ const routes: Routes= [
     EconomicaComponent,
     EducativaComponent,
     UniversidadComponent,
-    ResumenComponent
+    ResumenComponent,
+    TablaComponent
   ],
   imports: [
     BrowserModule,
